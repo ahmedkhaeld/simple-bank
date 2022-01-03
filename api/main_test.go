@@ -3,12 +3,11 @@ package api
 import (
 	db "github.com/ahmedkhaeld/simplbank/db/sqlc"
 	"github.com/ahmedkhaeld/simplbank/util"
+	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 	"os"
 	"testing"
 	"time"
-
-	"github.com/gin-gonic/gin"
 )
 
 func newTestServer(t *testing.T, store db.Store) *Server {
