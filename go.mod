@@ -1,6 +1,6 @@
 module github.com/ahmedkhaeld/simplbank
 
-go 1.17
+go 1.17.5
 
 require (
 	github.com/golang/mock v1.6.0
